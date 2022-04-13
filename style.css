@@ -1,0 +1,117 @@
+/* .box , .box2 {
+    margin: auto;
+    width: 100px;
+    color: white;
+    font-size: 25px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 5s;
+    
+    margin-top: 200px;
+    }
+.box{
+    
+transition-timing-function: ease;
+
+}
+.box2{transition-timing-function: ease-in-out;}
+
+.container:hover div{transform: translate(500px);} */
+
+/* جلسه ۱۰ */
+
+
+
+/* mimi project jalase 20 */
+/* .loader{
+width: 100px;
+height: 100px;
+margin: auto;
+margin-top: 90px;
+border: 10px solid beige;
+border-top: 10px solid black;
+border-radius: 50%;
+animation: spin 1s infinite linear ;
+
+
+
+}
+
+@keyframes spin{
+    100%{transform: rotate(360deg);
+    }
+
+
+    */
+
+    /* /jalase 20 */
+
+.body{
+animation-name: spin;
+
+}
+
+    .loader
+    {
+margin: auto;
+
+
+
+
+    }
+
+
+    .loader1{
+        /* background-color: red; */
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px;
+        border: 5px solid rgb(128, 6, 6);
+        /* border-top-color: transparent; */
+        border-bottom: none;
+        border-top: none;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+
+    .child{
+        /* background-color: blue; */
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 3px solid rgb(243, 193, 28);
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-radius: 50%;
+        animation: spin 2s reverse infinite;
+    } 
+.childb{
+    width: 60px;
+    height: 60px;
+    border: 2.5px solid rgb(243, 125, 28);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s reverse infinite;
+} 
+
+
+
+
+
+    @keyframes spin{
+100%{transform: rotate(360deg);}
+
+
+
+    }
+
+
+
